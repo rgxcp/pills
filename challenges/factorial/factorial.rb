@@ -7,12 +7,6 @@ def factorial(n)
   n.downto(1) do |i|
     result *= i
   end
+
   result
 end
-
-puts factorial(0)
-puts factorial(1)
-puts factorial(2)
-puts factorial(3)
-puts factorial(4)
-puts factorial(5)

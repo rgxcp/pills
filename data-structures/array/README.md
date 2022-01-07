@@ -1,8 +1,6 @@
 # Array
 
-## Source
-
-[Memahami Efisiensi Algoritma & Bagaimana Array Bekerja - Fundamental Algoritma & Struktur Data #001](https://youtu.be/oQBa3MEgXcA)
+## [Memahami Efisiensi Algoritma & Bagaimana Array Bekerja - Fundamental Algoritma & Struktur Data #001](https://youtu.be/oQBa3MEgXcA)
 
 ## Key Points
 

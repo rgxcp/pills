@@ -2,7 +2,7 @@
 
 ## [Memahami Efisiensi Algoritma & Bagaimana Array Bekerja - Fundamental Algoritma & Struktur Data #001](https://youtu.be/oQBa3MEgXcA)
 
-## Key Points
+### Key Points
 
 1. We can "illustrate" that memory in computer looks like a grid.
 2. If we want to store an array with 4 elements in it, computer will reserve 4 cells in memory (in a close position).

@@ -19,4 +19,10 @@ RSpec.describe "is_valid" do
       expect(is_valid("[]")).to be true
     end
   end
+
+  context "when given input '(){]'" do
+    it "returns false" do
+      expect(is_valid("(){]")).to be false
+    end
+  end
 end

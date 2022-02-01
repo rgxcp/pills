@@ -3,5 +3,10 @@
 # @param {String} s
 # @return {Boolean}
 def is_valid(s)
-  s == "()"
+  rules = {
+    "(" => ")",
+    "{" => "}"
+  }
+
+  s[1] == rules[s[0]]
 end

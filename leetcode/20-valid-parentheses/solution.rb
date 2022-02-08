@@ -18,5 +18,5 @@ def is_valid(s)
       return false unless rules[stacks.pop] == char
     end
   end
-  stacks.size == 0
+  stacks.empty?
 end

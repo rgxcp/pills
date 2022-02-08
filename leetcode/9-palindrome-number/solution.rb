@@ -3,11 +3,12 @@
 # @param {Integer} x
 # @return {Boolean}
 def is_palindrome(x)
-  return false if x.negative?
+  return false if x.negative? || (x % 10 == 0 && x != 0)
 
-  if x.to_s.split("").reverse.join.to_i == x
-    true
-  else
-    false
+  reverted_number = 0
+  while x > reverted_number
+    reverted_number = (reverted_number * 10) + (x % 10)
+    x /= 10
   end
+  x == reverted_number || x == reverted_number / 10
 end

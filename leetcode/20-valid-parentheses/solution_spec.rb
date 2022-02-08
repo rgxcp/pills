@@ -4,25 +4,25 @@ require_relative "solution"
 RSpec.describe "is_valid" do
   context "when given input '()'" do
     it "returns true" do
-      expect(is_valid("()")).to be true
+      expect(is_valid("()")).to be(true)
     end
   end
 
   context "when given input '{}'" do
     it "returns true" do
-      expect(is_valid("{}")).to be true
+      expect(is_valid("{}")).to be(true)
     end
   end
 
   context "when given input '[]'" do
     it "returns true" do
-      expect(is_valid("[]")).to be true
+      expect(is_valid("[]")).to be(true)
     end
   end
 
   context "when given input '(){]'" do
     it "returns false" do
-      expect(is_valid("(){]")).to be false
+      expect(is_valid("(){]")).to be(false)
     end
   end
 end

@@ -24,7 +24,7 @@ RSpec.describe "linear_search" do
     it "returns nil" do
       numbers = [3, 7, 15, 23, 46, 59, 63, 72, 88, 95]
       result = linear_search(numbers, 100)
-      expect(result).to be(nil)
+      expect(result).to be_nil
     end
   end
 
@@ -42,7 +42,7 @@ RSpec.describe "binary_search" do
     it "returns nil" do
       numbers = [3, 7, 15, 23, 46, 59, 63, 72, 88, 95]
       result = binary_search(numbers, 100)
-      expect(result).to be(nil)
+      expect(result).to be_nil
     end
   end
 
